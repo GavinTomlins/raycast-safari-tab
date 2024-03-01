@@ -1,5 +1,5 @@
 <p align="center">
-<img width=100 src="https://github.com/GavinTomlins/raycast-safari-tab/main/assets/safari-icon-64">
+<img width=100 src="[https://github.com/GavinTomlins/raycast-safari-tab/main/assets/safari-icon-64](https://github.com/GavinTomlins/raycast-safari-tab/blob/main/assets/safari-icon-64.png)">
 </p>
 
 <h1 align="center">Safari Tab</h1>
