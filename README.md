@@ -1,5 +1,5 @@
 <p align="center">
-<img width=100 src="https://github.com/GavinTomlins/raycast-safari-tab/main/assets/safari-icon-64">
+<img width=100 src="https://raw.githubusercontent.com/GavinTomlins/raycast-safari-tab/main/assets/safari-icon-64.png">
 </p>
 
 <h1 align="center">Safari Tab</h1>
@@ -19,5 +19,8 @@ Interact with OSX Safari Browser Tabs right from your command bar
 
 # RayCast Open Safari Tabs
 An extension for the OSX RayCast App https://www.raycastapp.com/
-Will focus on a Safari tab or open a new tab. Useful if you have pinned tabs
+
+Will focus on a Safari tab or open a new tab. 
+
+Useful if you have pinned tabs
 
