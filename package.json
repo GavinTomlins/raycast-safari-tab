@@ -1,10 +1,11 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "safari-tab",
-  "title": "Safari Tab",
-  "description": "Will focus on a Safari tab or open a new tab. Useful if you have pinned tabs",
+  "title": "Safari Tab Focus",
+  "description": "A shortcut that will focus on a Safari tab or open a new tab. Useful if you have pinned tabs",
   "icon": "command-icon.png",
   "author": "gavin_tomlins",
+  "owner": "diversityarraystechnology",
   "categories": [
     "Web"
   ],
@@ -13,7 +14,7 @@
     {
       "name": "index",
       "title": "Safari Tab",
-      "description": "Template for running a script without any view",
+      "description": "Template for running a script without any view to set focus on a Safari Tab",
       "mode": "no-view"
     }
   ],
