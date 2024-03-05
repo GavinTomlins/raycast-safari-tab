@@ -1,10 +1,13 @@
-import { showHUD } from "@raycast/api";
+import { List, ActionPanel, Action, Icon, Color, showHUD } from "@raycast/api";
 import { runAppleScript } from "@raycast/utils";
+import { getPreferences } from "./preferences";
 
 export default async function (argv: string[]) {
+  const { safariTab } = getPreferences();
+  argv = [safariTab];
   const script = `
     on run argv
-      set theUrl to "https://chat.openai.com"
+      set theUrl to item 1 of argv as Text
       tell application "Safari"
         set found to false
         set winList to every window

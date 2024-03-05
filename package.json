@@ -22,6 +22,17 @@
     "@raycast/api": "^1.68.1",
     "@raycast/utils": "^1.12.5"
   },
+  "preferences": [
+    {
+      "name": "Safari Tab to Focus on",
+      "type": "textfield",
+      "title": "Safari Tab to Focus on",
+      "key": "safariTab",
+      "placeholder": "https://your-safari-tab.com",
+      "required": true,
+      "description": "The URL for the Safari tab you want to focus on"
+    }
+  ],
   "devDependencies": {
     "@raycast/eslint-config": "^1.0.6",
     "@types/node": "20.8.10",

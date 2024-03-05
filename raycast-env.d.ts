@@ -7,7 +7,10 @@
 
 /* eslint-disable @typescript-eslint/ban-types */
 
-type ExtensionPreferences = {}
+type ExtensionPreferences = {
+  /** Safari Tab to Focus on - The URL for the Safari tab you want to focus on */
+  "Safari Tab to Focus on": string
+}
 
 /** Preferences accessible in all the extension's commands */
 declare type Preferences = ExtensionPreferences
