@@ -4,7 +4,18 @@ import { getPreferences } from "./preferences";
 
 export default async function (argv: string[]) {
   const { safariTab } = getPreferences();
+  // Before modifying argv, let's log its original value
+  console.log(`Original argv:`, argv);
+
   argv = [safariTab];
+  console.log(`safariTab: ${safariTab}`); // Add this line to log the safariTab value
+  // After modifying argv, log its new value to ensure it's correctly assigned
+  console.log(`Modified argv with safariTab:`, argv);
+ 
+  if (!safariTab) {
+    await showHUD("safariTab is undefined or empty.");
+    return; // Exit if safariTab is not valid
+  }
   const script = `
     on run argv
       set theUrl to item 1 of argv as Text
